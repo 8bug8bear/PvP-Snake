@@ -1,1 +1,7 @@
 # PvP-Snake
+## Background
+I wrote this application for a friend who wanted to start working in the SMM. He wanted an application that would help him send the same message to different numbers in different applications (initially he didn't even know which ones). To solve this problem, I decided to write this application. I understand that the principle of operation of this application is not the best idea to solve its problem, but I could not then spend too much time on it.
+## How the application works
+For the application to work, you need a text document in which phone numbers will be recorded. Each number should be written in its own line. After launching the application, you need to enter the path to the file. Then the text of the message is entered in the application. Next, the application writes the first number to the clipboard and waits until you press the V key (this is how the application tracks when you insert text), after which it writes the message text to the buffer. The application alternates between phone numbers and a message in the clipboard until the numbers in the document run out. The user can only insert text into the required fields of applications.
+## Afterword
+As a result, a day later that friend no longer wanted to work in the SMM, and I got an unforgettable experience working with Windows libraries and now I can safely call myself "that programmer friend"
